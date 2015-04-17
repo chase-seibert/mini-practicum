@@ -8,3 +8,8 @@ class TestUserModel(unittest.TestCase):
         user = User.create('foobar', 'bat')
         self.assertEquals(user.username, 'foobar')
         self.assertEquals(user.password, 'bat')
+
+    def test_full_name(self):
+        user = User.create('foobar', 'bat')
+        user.full_name = 'Barry Bonds'
+        self.assertEquals(user.first_name, 'Barry')
