@@ -6,3 +6,11 @@ class User(models.Model):
     password = models.CharField(len=255)
     full_name = models.CharField(len=255)
 
+    @staticmethod
+    def create(username, password):
+        user = User()
+        user.username = username
+        user.password = password
+        user.save()
+        return user
+
