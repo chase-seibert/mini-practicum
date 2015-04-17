@@ -1,6 +1,4 @@
-from framework import require_post
-from framework import reverse
-from framework import HttpResponseRedirect
+from framework import require_post, reverse, HttpResponseRedirect
 from myapp.models import User
 
 
