@@ -28,7 +28,3 @@ This is the basis of an interview question where candidates are asked to make co
 - [ ] The constant `8` should be named something like `DEFAULT_PASSWORD_LEN`
 - [ ] 'Hello, {}' is not internationalized
 - [ ] The email does not have a plain text multipart
-
-TODO:
-- [ ] change first_name to get_first_name
-- [ ] send password in email
