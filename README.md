@@ -28,3 +28,8 @@ This is the basis of an interview question where candidates are asked to make co
 - [ ] The constant `8` should be named something like `DEFAULT_PASSWORD_LEN`
 - [ ] 'Hello, {}' is not internationalized
 - [ ] The email does not have a plain text multipart
+- [ ] What is the use case for this code?
+- [ ] Should not be exposed as a view, but a task.
+- [ ] No route to this view.
+- [ ] Join statement needs extra braces.
+- [ ] Mixed style between %s and .format() w/ no rationale. 
